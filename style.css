@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url(font-awesome.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;    /*background-image: url("https://www.nastol.com.ua/download.php?img=201502/1920x1080/nastol.com.ua-129628.jpg");*/
+}
+
+/* MEnu */
+
+.h-name{
+    font-family: Work Sans, sans-serif;
+    font-size: 270%;
+    margin: 0px;
+}
+
+.container-menu{
+
+}
+
+header{
+    background-color: #1a4fed;
+    border-bottom: 1px solid black;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-menu{
+    float: right;
+    list-style-type: none;
+    margin-top: -40px;
+    margin-right: 35%;
+}
+
+
+
+
+.menu{
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 25px;
+    font-family: Indie Flower, sans-serif;
+    transition: 0.3s ease;
+}
+
+.menu a:hover{
+    color: #11165c;
+    border-bottom: solid 2px #fff
+}
+
+.header-logo{
+    float: left;
+
+}
+
+.sign{
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: -60%;
+}
+
+.sign-in, p, .sign-up{
+    display: inline-block;
+}
+
+
+.sign li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 10vh;
+    border-top: 2px solid #000;
+}
+
+.social{
+    float: left;
+    width: 50%;
+}
+
+.rights{
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em; 
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+/* ::-webkit-scrollbar{
+    width: 6px;
+    background: #424242;
+}
+::-webkit-scrollbar-thumb{
+    border-width: 1px 1px 1px 2px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #353535;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #727272;
+} */
+

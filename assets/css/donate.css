@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #060c21;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* MEnu */
+
+.h-name{
+    font-family: Work Sans, sans-serif;
+    font-size: 270%;
+    margin: 0px;
+}
+
+
+
+header{
+    background-color: #600e8a;
+    border-bottom: 1px solid black;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-menu{
+    float: right;
+    list-style-type: none;
+    margin-top: -40px;
+    margin-right: 35%;
+}
+
+
+
+
+.menu, .sign{
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 25px;
+    font-family: Indie Flower, sans-serif;
+    transition: 0.3s ease;
+}
+
+.menu a:hover{
+    color: #11165c;
+    border-bottom: solid 2px #fff
+}
+
+.header-logo{
+    float: left;
+
+}
+
+.sign a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 25px;
+    font-family: Indie Flower, sans-serif;
+    transition: 0.3s ease;
+}
+
+.sign{
+    float: right;
+    list-style-type: none;
+    margin-top: -24px;
+    margin-right: 2%;
+    padding: 0%;
+}
+
+
+/* Block */
+
+.container{
+    position: relative;
+    margin-top: 25%;
+    width: 90%;
+    height: auto;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 0 60px;
+    grid-template-rows: auto;*/
+    display: inline-block;
+}
+
+.box{
+    text-align: center;
+    position: relative;
+    height: 700px;
+    background: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    padding: 8%;
+    padding-right: 10%; 
+    margin-right: -4%;
+}
+
+.content{
+    position: relative;
+    padding: 20px;
+}
+
+.content h3{
+    position: absolute;
+    top: -60px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: rebeccapurple;
+    transition: 0.5s;
+}
+
+.content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.content h5{
+    color: #fff;
+}
+
+.content p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.content .name h2{
+    display: flex;
+    font-size: 30px;
+    color: rgba(86, 92, 94, 0.356);
+}
+
+.content .name-nitro{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: rebeccapurple;
+    transition: 0.5s;
+}
+
+.box-n{
+    padding: 0px;
+    margin-bottom: 60px;
+    color: #000;
+    border-top: 1px solid rgb(58, 56, 56);
+    font-size: 20px;
+
+}
