@@ -1,0 +1,152 @@
+body{
+    background-color: #2b2e3b;
+}
+
+/* Menu */
+
+.nav-menu{
+    background-color: #634987; 
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-color: #1a1b23 !important;
+}
+
+.nav-menu img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 80px;
+}
+
+.nav-span{
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-size: 40px;
+}
+
+.collapse-nav{
+    font-size: 20px; 
+    justify-content: center;
+} 
+
+/* Center Logo */
+
+.center-logo .h1{
+    color: #fff; font-family: Righteous, sans-serif;
+    font-size: 500%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.center-logo .but-1{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.example_c {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+    .example_c:hover {
+    color: #ffffff !important;
+    background: #612057;
+    border-color: #612057 !important;
+    transition: all 0.4s ease 0s;
+}
+
+/* Top Donate */
+
+.top-donate{
+    margin-top: 20%; 
+    color: #fff;
+}
+
+
+.top-donate .text-center{
+    font-size: 40px; 
+    font-family: Roboto, sans-serif; 
+    color: #634987;
+}
+
+.top-donate .card-group{
+    margin: 5%;
+}
+
+.top-donate .card{
+    border: #21232b; 
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.top-donate .card-img-top{
+    background-color: #21232b;
+}
+
+.top-donate .card-body{
+    background-color: #21232b;
+}
+
+.top-donate .p-sm{
+    font-size: 30px;
+}
+
+.top-donate .card{
+    border: #21232b;
+    margin-right: 5%;
+}
+
+/* Staff */
+
+.staff{
+    margin-top: 10%; 
+    color: #fff;
+}
+
+.staff .text-center{
+    font-size: 40px; 
+    font-family: Roboto, sans-serif; 
+    color: #634987; 
+    margin-right: 5%;;
+}
+
+.staff.staff-div{
+    margin-left: 15%;
+}
+
+.staff .owner{
+    color: #fff;
+}
+
+.staff .tab-2{
+    margin-top: 8%;
+}
+
+.staff .staff-nick{
+    font-size: 20px;
+    margin-right: -3%;
+}
+
+.staff .wis{
+    margin-left: 2em;
+}
+
+.staff .zakuro{
+    margin-left: 2em;
+}
+
+.staff .morakul{
+   margin-left: 1.5em;
+}
+
+.staff .luz{
+    margin-left: 1.5em;
+}
+
+.staff-stat{
+    color: #56555e;
+    margin-left: 1em;
+}
